@@ -6,6 +6,28 @@
     <title>week2</title>
 </head>
 <body>
+
+    <main>
+        <!-- forms require two attributes:
+         action is where the form will submit to, # submits to current page 
+         method is how the info is going to be sent
+            the get method is unsecure
+            the post method is secure -->
+
+        <form action="#" method="get">
+            <p>What is javascript keyword for the HTML page</p>
+            <div> 
+                <!-- the labels for must match the fields id -->
+                <label for="answer"> your answer:</label>
+                <!-- input feinlds require a few attributes:
+                 type -what kind of form field this is 
+                 name - a label for the server to get the value
+                 id - links form field to the label -->
+                <input type="text" name="answer" id="answer">
+            </div>
+            <div id="feedback"></div>
+        </form>
+    </main>
     
     <script src="scripts/scripts.js"></script>
 </body>
