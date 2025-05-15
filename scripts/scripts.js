@@ -25,3 +25,4 @@ console.log(ourClassNum);
 //const and let cannot be redeclared(recreated)
 //let numStudents = 25;
 //showing that we cannot recycle let/var with different number (already declared on line11)
+//rs
